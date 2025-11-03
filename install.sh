@@ -60,7 +60,7 @@ apt-get update
 if [[ "${repo_version}" == "22.04" ]]; then
 sudo apt-get purge dotnet-sdk-8.0
 sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list && sudo apt update
-sudo apt install -y dotnet9
+sudo apt install -y dotnet8
 fi
   dotnet publish -c Release -o /etc/x-ui-multi-protocol
 
