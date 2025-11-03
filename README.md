@@ -32,14 +32,15 @@ bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/
 Environment=SYNC_INTERVAL_SEC=120  # هر ۲ دقیقه
 ```
 
-### توقف / اجرا / حذف
+### توقف / اجرا
 
 ```bash
 systemctl stop  x-ui-multi-protocol   # توقف
 systemctl start x-ui-multi-protocol  # اجرا دوباره
 systemctl status x-ui-multi-protocol # مشاهده وضعیت
-
+```
 # حذف کامل
+```bash
 bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/master/unistall.sh)
 ```
 
