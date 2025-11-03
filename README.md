@@ -27,10 +27,17 @@ bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/
 
 ### تنظیم بازه زمانی (اختیاری)
 
+- با دستور زیر فایل سرویس را باز کنید.
+
+
+```bash
+sudo nano /etc/systemd/system/x-ui-multi-protocol.service
+```
+- در بخش
 ```ini
-[Service]
 Environment=SYNC_INTERVAL_SEC=120  # هر ۲ دقیقه
 ```
+میتوانید تایم دلخواه خود برای اجرای سرویس را به ثانیه، طبق مثال وارد کنید.
 
 ### توقف / اجرا
 
@@ -39,9 +46,9 @@ systemctl stop  x-ui-multi-protocol   # توقف
 systemctl start x-ui-multi-protocol  # اجرا دوباره
 systemctl status x-ui-multi-protocol # مشاهده وضعیت
 ```
-# حذف کامل
+## حذف کامل
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/master/unistall.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/master/uninstall.sh)
 ```
 
 ## نحوه کار
