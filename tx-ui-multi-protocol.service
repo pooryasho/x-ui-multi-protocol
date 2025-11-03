@@ -1,13 +1,13 @@
 [Unit]
-Description=tx-ui-multi-protocol
+Description=x-ui-multi-protocol
 
 [Service]
 # systemd will run this executable to start the service
 # if /usr/bin/dotnet doesn't work, use `which dotnet` to find correct dotnet executable path
-ExecStart=/usr/bin/dotnet /etc/tx-ui-multi-protocol/tx_ui_multi_protocol.dll
+ExecStart=/usr/bin/dotnet /etc/x-ui-multi-protocol/x_ui_multi_protocol.dll
 
 # to query logs using journalctl, set a logical name here
-SyslogIdentifier=tx_ui_multi_protocol
+SyslogIdentifier=x_ui_multi_protocol
 
 # Use your username to keep things simple.
 # If you pick a different user, make sure dotnet and all permissions are set correctly to run the app
