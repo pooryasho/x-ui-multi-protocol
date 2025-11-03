@@ -25,6 +25,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/
 - پروژه را `dotnet publish` کرده و در ‎`/etc/x-ui-multi-protocol`‎ قرار می‌دهد
 - فایل ‎`x-ui-multi-protocol.service`‎ را در ‎`/etc/systemd/system`‎ نصب و فعال می‌کند
 
+---
 ### تنظیم بازه زمانی (اختیاری)
 
 - با دستور زیر فایل سرویس را باز کنید.
@@ -34,19 +35,21 @@ bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/
 sudo nano /etc/systemd/system/x-ui-multi-protocol.service
 ```
 - در بخش
-```ini
-Environment=SYNC_INTERVAL_SEC=120  # هر ۲ دقیقه
-```
-میتوانید تایم دلخواه خود برای اجرای سرویس را به ثانیه، طبق مثال وارد کنید.
+Environment=SYNC_INTERVAL_SEC=120 
+میتوانید تایم دلخواه خود برای اجرای سرویس را به ثانیه وارد کنید.
+---
 
-### توقف / اجرا
+### ❗️توجه: برای کاهش حجم و یا ریست ترافیک کاربر لازم است سرویس را متوقف و پس از ویرایش آن را مجدد اجرا کنید!
+
+### توقف / اجرا / مشاهده وضعیت
 
 ```bash
 systemctl stop  x-ui-multi-protocol   # توقف
 systemctl start x-ui-multi-protocol  # اجرا دوباره
 systemctl status x-ui-multi-protocol # مشاهده وضعیت
 ```
-## حذف کامل
+---
+## حذف کامل / Uninstall
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/master/uninstall.sh)
 ```
