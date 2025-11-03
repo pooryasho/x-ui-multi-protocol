@@ -1,6 +1,6 @@
-# tx-ui-multi-protocol ✨
+# x-ui-multi-protocol ✨
 
-> Traffic-unifier micro-service for the **tx-ui** panel. Written in C#/.NET 9, hardened for systemd, and now fully configurable.
+> Traffic-unifier micro-service for the **x-ui** panel. Written in C#/.NET 9, hardened for systemd, and now fully configurable.
 
 ## کلیدی‌‌ترین تغییرات نسبت به ریپوی اصلی (3xui-multi-protocol)
 
@@ -16,14 +16,14 @@
 # نصب / Install
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/XFaker-XOX/tx-ui-multi-protocol/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/master/install.sh)
 ```
 
 اسکریپت به صورت خودکار:
 
 - Runtime یا SDK نسخه 9 را نصب می‌کند (دبیان/اوبونتو 24.04+, سنت‌اواس، فدورا...)
-- پروژه را `dotnet publish` کرده و در ‎`/etc/tx-ui-multi-protocol`‎ قرار می‌دهد
-- فایل ‎`tx-ui-multi-protocol.service`‎ را در ‎`/etc/systemd/system`‎ نصب و فعال می‌کند
+- پروژه را `dotnet publish` کرده و در ‎`/etc/x-ui-multi-protocol`‎ قرار می‌دهد
+- فایل ‎`x-ui-multi-protocol.service`‎ را در ‎`/etc/systemd/system`‎ نصب و فعال می‌کند
 
 ### تنظیم بازه زمانی (اختیاری)
 
@@ -35,12 +35,12 @@ Environment=SYNC_INTERVAL_SEC=120  # هر ۲ دقیقه
 ### توقف / اجرا / حذف
 
 ```bash
-systemctl stop  tx-ui-multi-protocol   # توقف
-systemctl start tx-ui-multi-protocol  # اجرا دوباره
-systemctl status tx-ui-multi-protocol # مشاهده وضعیت
+systemctl stop  x-ui-multi-protocol   # توقف
+systemctl start x-ui-multi-protocol  # اجرا دوباره
+systemctl status x-ui-multi-protocol # مشاهده وضعیت
 
 # حذف کامل
-bash <(curl -Ls https://raw.githubusercontent.com/XFaker-XOX/tx-ui-multi-protocol/master/unistall.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/master/unistall.sh)
 ```
 
 ## نحوه کار
