@@ -71,7 +71,7 @@ git clone https://github.com/pooryasho/x-ui-multi-protocol.git
   chmod +x ./dotnet-install.sh
   ./dotnet-install.sh --channel 8.0
   apt update
-  apt install -y dotnet7
+  apt install -y dotnet8
   cd x-ui-multi-protocol/x-ui-multi-protocol
   dotnet publish -c Release -o /etc/x-ui-multi-protocol
 fi
