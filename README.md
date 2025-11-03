@@ -21,7 +21,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/
 
 اسکریپت به صورت خودکار:
 
-- Runtime یا SDK نسخه 9 را نصب می‌کند (دبیان/اوبونتو 24.04+, سنت‌اواس، فدورا...)
+- Runtime یا SDK نسخه 8 را نصب می‌کند (دبیان/اوبونتو 24.04+, سنت‌اواس، فدورا...)
 - پروژه را `dotnet publish` کرده و در ‎`/etc/x-ui-multi-protocol`‎ قرار می‌دهد
 - فایل ‎`x-ui-multi-protocol.service`‎ را در ‎`/etc/systemd/system`‎ نصب و فعال می‌کند
 
