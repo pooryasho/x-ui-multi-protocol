@@ -1,6 +1,6 @@
 # x-ui-multi-protocol ✨
 
-> Traffic-unifier micro-service for the **x-ui** panel. Written in C#/.NET 9, hardened for systemd, and now fully configurable.
+> Traffic-unifier micro-service for the **x-ui** panel. Written in C#/.NET 8, hardened for systemd, and now fully configurable.
 
 ## کلیدی‌‌ترین تغییرات نسبت به ریپوی اصلی (3xui-multi-protocol)
 
