@@ -48,7 +48,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/pooryasho/x-ui-multi-protocol/
 سرویس هر `SYNC_INTERVAL_SEC` ثانیه به دیتابیس ‎`/etc/x-ui/x-ui.db`‎ سر می‌زند و ترافیک همه کلاینت‌هایی که **Subscription-ID یکسان** دارند را مساوی با بیشترین مقدار بین آن‌ها می‌کند.
 
 - هر عملیات دیتابیس در صورت خطای «database is locked» تا **۳ بار** با فاصله ۵۰۰ میلی‌ثانیه تکرار می‌شود؛ بنابراین سرویس در شرایط شلوغ کرش نمی‌کند.
-- فایل کش `LocalDB.json` در همان پوشه اجرایی ‎`/etc/tx-ui-multi-protocol`‎ ذخیره می‌شود.
+- فایل کش `LocalDB.json` در همان پوشه اجرایی ‎`/etc/x-ui-multi-protocol`‎ ذخیره می‌شود.
 
 ![subscription](subscription-img.png)
 
