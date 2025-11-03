@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
-    <AssemblyName>tx_ui_multi_protocol</AssemblyName>
-    <OutputName>tx_ui_multi_protocol</OutputName>
-    <RootNamespace>_tx_ui_multi_protocol</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>x_ui_multi_protocol</AssemblyName>
+    <OutputName>x_ui_multi_protocol</OutputName>
+    <RootNamespace>_x_ui_multi_protocol</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
